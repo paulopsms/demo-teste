@@ -99,6 +99,7 @@ public class UserController {
      * @return Objeto Json do usuário atualizado.
      */
     @PutMapping("{idUsuario}/password")
+    @PreAuthorize("hasAuthority('admin')")
     public ResponseEntity updateUserPassword(@PathVariable("idUsuario") Long idUsuario,
                                              @RequestBody @Valid UserPasswordDto userPasswordDto) {
         User user = this.userService.updateUserPassword(idUsuario, userPasswordDto);
