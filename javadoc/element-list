@@ -1,0 +1,16 @@
+br.com.atlantico.demoteste
+br.com.atlantico.demoteste.configuration.datasource
+br.com.atlantico.demoteste.configuration.redis
+br.com.atlantico.demoteste.configuration.security
+br.com.atlantico.demoteste.configuration.security.jwt
+br.com.atlantico.demoteste.controller
+br.com.atlantico.demoteste.dto
+br.com.atlantico.demoteste.dto.exception
+br.com.atlantico.demoteste.dto.user
+br.com.atlantico.demoteste.exception
+br.com.atlantico.demoteste.exception.user
+br.com.atlantico.demoteste.model.jwt
+br.com.atlantico.demoteste.model.user
+br.com.atlantico.demoteste.repository
+br.com.atlantico.demoteste.service
+br.com.atlantico.demoteste.user

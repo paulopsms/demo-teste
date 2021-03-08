@@ -71,4 +71,6 @@ Para buildar e executar a aplcação, vá ao diretório do projeto e execute
     
     mvn clean package
     
-depois é só executar java -jar /target/
+depois é só executar 
+
+    java -jar target\demo-teste-0.0.1-SNAPSHOT.jar
