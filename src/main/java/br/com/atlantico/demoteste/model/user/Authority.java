@@ -12,7 +12,6 @@ public class Authority implements GrantedAuthority {
     private Integer id;
     private String name;
     private String description;
-    private String path;
 
     public Authority() {
     }
@@ -20,7 +19,6 @@ public class Authority implements GrantedAuthority {
     public Authority(String name, String description, String path) {
         this.name = name;
         this.description = description;
-        this.path = path;
     }
 
     @Override
@@ -38,9 +36,5 @@ public class Authority implements GrantedAuthority {
 
     public String getDescription() {
         return description;
-    }
-
-    public String getPath() {
-        return path;
     }
 }
