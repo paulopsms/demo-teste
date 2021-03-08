@@ -1,6 +1,7 @@
 Para execução do projeto Backend, é necessário ter instalado em sua máquina o Maven, Postgresql e Redis Server.
 
 #Banco de Dados 
+
 #####Execute os SQLs:
  
  Criando o database:
